@@ -7,7 +7,7 @@ on:
       - synchronize
 
 jobs:
-  validate-approval:
+  check-for-changes:
     runs-on: ubuntu-latest
     env:
       BACKEND_URL: https://fp-core.dp04sa0tdc6pk.us-east-1.cs.amazonlightsail.com
